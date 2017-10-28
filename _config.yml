@@ -1,0 +1,25 @@
+# Site settings
+title:       byhan's Blog
+email:       byhan40@163.com
+author:      John Otander
+description: "I blog here."
+baseurl:     ""
+url:         "https://byhan40.github.io"
+date_format: "%b %-d, %Y"
+
+# Optional features
+show_related_posts: true
+show_post_footers:  true
+
+# Social icons
+show_social_icons: false
+github_username:
+
+# Build settings
+markdown:     kramdown
+permalink:    pretty
+paginate:     4
+sass:
+  compressed: true
+plugins:
+  - jekyll-paginate
